@@ -3,17 +3,18 @@ package chap01;
 public class CharBoolDemo {
 
 	public static void main(String[] args) {
-	char ga1, ga2;
-	ga1='가';
-	ga2='\uac00';
-	boolean cham = true;
-	boolean geojit = false;
-	System.out.println(ga1);
-	System.out.println((int)ga1);
-	System.out.println(ga2);
-	System.out.println(++ga2);
-	System.out.println(cham+"가 아니면"+geojit+"입니다");
+//	char ga1, ga2;
+//	ga1='가';
+//	ga2='\uac00';
+//	boolean cham = true;
+//	boolean geojit = false;
+//	System.out.println(ga1);
+//	System.out.println((int)ga1);
+//	System.out.println(ga2);
+//	System.out.println(++ga2);
+//	System.out.println(cham + "가 아니면" + geojit + "입니다");
 
+	System.out.println('\uAE40'+""+'\uB3D9'+""+'\uC601');
 	}
 
 }
