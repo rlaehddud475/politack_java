@@ -1,0 +1,38 @@
+package chapter4;
+import java.util.Scanner;
+public class Ex1 {
+	public static void main(String[] args) {
+		Scanner scanf = new Scanner(System.in);
+		
+		System.out.println("<<1번째 학생 성적>>");
+		int kor1= scanf.nextInt();
+		System.out.print("국어 성적 : " + kor1);
+		int eng1= scanf.nextInt();
+		System.out.print("영어 성적 : " + eng1);
+		int mat1= scanf.nextInt();
+		System.out.print("수학 성적 : " + mat1);
+		int total1 = kor1+eng1+mat1;
+		System.out.println("총점 : " + total1);
+		double avgs1 = (double)total1/3;
+		System.out.println("평균 : " + avgs1);
+		System.out.println("<<2번째 학생 성적>>");
+		int kor2 = scanf.nextInt();
+		System.out.print("국어 성적 : " + kor2);
+		int eng2 = scanf.nextInt();
+		System.out.print("영어 성적 : " + eng2);
+		int mat2 = scanf.nextInt();
+		System.out.println("수학 성적 : " + mat2);
+		int total2 = kor2+eng2+mat2;
+		System.out.println("총점 : " + total2);
+		double avgs2 = (double)total2/3	;
+		System.out.println("평균 : " + avgs2);
+int[] ranks = new int[2];
+		
+		ranks[0] = avgs1 > avgs2 ?1:2;
+		ranks[1] = avgs1 < avgs2 ?1:2;
+		ranks[0] = avgs1 == avgs2 ?1:ranks[0];
+		ranks[1] = avgs1 == avgs2 ?1:ranks[1];
+		System.out.println("석차 : " + ranks[0]);
+		System.out.println("석차 : " + ranks[1]);
+	}
+}

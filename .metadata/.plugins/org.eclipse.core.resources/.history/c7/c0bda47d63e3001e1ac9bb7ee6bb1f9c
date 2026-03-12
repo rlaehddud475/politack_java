@@ -1,0 +1,13 @@
+package chapter5;
+import java.util.Random;
+public class dice {
+	Random random = new Random();
+	void tRpgDice(int Dice){
+		Dice = random.nextInt(6);
+		if(Dice>=1&&Dice<=6) {
+		System.out.println("앞으로"+Dice+"걸어가시오");
+		}else {
+			System.out.println("당신은 지금 경공으로 이동 중입니다.");
+		}
+	}
+}

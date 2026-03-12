@@ -1,0 +1,10 @@
+package chapter5;
+ 
+public class Diceprogram {
+	public static void main(String[] args) {
+		dice d = new dice();
+		d.tRpgDice(6);
+		
+		System.out.println("앞으로" + d.tRpgDice(6)+);
+	}
+}

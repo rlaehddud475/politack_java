@@ -1,0 +1,11 @@
+package chapter5;
+import java.util.Random;
+public class dice {
+	Random random = new Random();
+	void tRpgDice(int Dice){
+		Dice = random.nextInt(6);
+		
+		System.out.println(Dice+1);
+		
+	}
+}
