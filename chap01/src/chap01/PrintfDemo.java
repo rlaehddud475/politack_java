@@ -11,7 +11,7 @@ public class PrintfDemo {
 		System.out.printf("%x\n",i);
 		System.out.printf("%c\n",i);
 		System.out.printf("%5d\n",i);
-		System.out.printf("%-5d\n",i);
+		System.out.printf("%05d\n",i);
 		System.out.printf("%s\n",str);
 		System.out.printf("%5s\n",str);
 		System.out.printf("%-5s\n",str);
