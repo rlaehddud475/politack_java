@@ -1,4 +1,3 @@
 INDEX VERSION 1.134+/Users/propheter/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
 208525992.index
-3662158220.index
 1865797976.index
