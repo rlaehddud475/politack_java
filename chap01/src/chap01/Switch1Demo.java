@@ -17,7 +17,7 @@ public class Switch1Demo {
 		System.out.print("*");
 		}
 		
-		}
+		}	
 	}
 
 }
