@@ -3,26 +3,17 @@ package chap02.ex03;
 public class String2Demo {
 
 	public static void main(String[] args) {
-	String s1=new String("Hi, ");
-	String s2=new String("Java!");
-	System.out.println("문자열의 길이(s1)"+s1.length());
-	System.out.println(s1.charAt(1));
-	s1=s1.concat(s2);
-	System.out.println(s1.concat(s2)+"!");
-	System.out.println(s1.toLowerCase()+"!");
-	System.out.println(s1.substring(4,8)+"!");
-	
-	String s3 = "   ";
-	System.out.println(s3.isEmpty());
-	System.out.println(s3.isBlank());
-	String s4 = "";
-	System.out.println(s4.isEmpty());
-	System.out.println(s4.isBlank());
-	
-	String s5="*-*";
-	System.out.println(s5.repeat(10));
-	
-	System.out.println(s2.trim().indexOf("v"));
+		String s1="Hi, Java!";
+		String s2="Hi, Java!";
+		String s3=new String("Hi, Java!");
+		String s4=new String("Hi, Java!");
+		System.out.println("s1==s2 ->"+(s1==s2));
+		System.out.println("s1==s3 ->"+(s1==s3));
+		System.out.println("s3==s4 ->"+(s3==s4));
+		
+		s1=s3;
+		System.out.println("s1==s3 ->"+(s1==s3));
+
 	
 	}
 
